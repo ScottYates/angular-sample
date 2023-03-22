@@ -4,10 +4,10 @@ import { Logger } from './logger.service';
 import { Hero } from './hero';
 
 const HEROES = [
-        new Hero('Windstorm', 'Weather mastery'),
-        new Hero('Dr Nice', 'Killing them with kindness'),
-        new Hero('Magneta', 'Manipulates metallic objects')
-      ];
+  new Hero('Windstorm', 'Weather and lightning mastery'),
+  new Hero('Dr Nice', 'Killing them with kindness'),
+  new Hero('Magneta', 'Manipulates metallic objects'),
+];
 
 @Injectable()
 export class BackendService {
@@ -23,7 +23,6 @@ export class BackendService {
     throw err;
   }
 }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
